@@ -18,3 +18,12 @@ Then apply the personal configs from this repository to the local PC:
 ```sh
 rsync --backup --suffix=.backup cheatsheets/personal/* ~/.config/cheat/cheatsheets/personal/
 ```
+
+Allow autocomplate using `fzf` tool:
+
+```sh
+echo "export CHEAT_USE_FZF=true" >> ~/.bashrc
+```
+Make sure `fzf` is installed.
+
+_Haven't used this option._
